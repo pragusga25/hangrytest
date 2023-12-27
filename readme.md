@@ -40,3 +40,7 @@ npm run dev
 This command will execute the script specified in the `package.json` file under the "scripts" section. In this case, it runs the `dev` script, which is commonly used for development environments.
 
 The server should now be running, and you should see output indicating that the server has started. By default, the server may be accessible at `http://localhost:3000/api/v1/users`. Open this URL in your web browser to see the server in action.
+
+## Postman
+
+<https://api.postman.com/collections/16401831-449b306b-d74c-4683-9cd0-c06255066475?access_key=PMAT-01HJNGDENDW36C2WZ365H0QS9N>
