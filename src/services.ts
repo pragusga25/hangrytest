@@ -38,7 +38,7 @@ export const updateUser = async (req: Req, res: Res) => {
   const body = await getBody(req);
   const updatedUser = validateUser(body, id);
   db[idx] = updatedUser;
-  sendResponse(res, { statusCode: 200, data: { result: updateUser } });
+  sendResponse(res, { statusCode: 200, data: { result: updatedUser } });
 };
 
 export const deleteUser = async (req: Req, res: Res) => {
