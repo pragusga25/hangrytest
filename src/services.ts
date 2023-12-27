@@ -49,5 +49,5 @@ export const deleteUser = async (req: Req, res: Res) => {
     return;
   }
   db.splice(idx, 1);
-  sendResponse(res, { statusCode: 200, data: { result: updateUser } });
+  sendResponse(res, { statusCode: 200, data: { result: { id } } });
 };
