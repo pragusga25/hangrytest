@@ -13,13 +13,13 @@ Make sure you have the following installed on your machine:
 1. **Clone the Repository:**
 
    ```
-   git clone <repository-url>
+   git clone https://github.com/pragusga25/hangrytest.git
    ```
 
 2. **Navigate to the Project Directory:**
 
    ```
-   cd <project-directory>
+   cd hangrytest
    ```
 
 3. **Install Dependencies:**
